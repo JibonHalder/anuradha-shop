@@ -24,28 +24,45 @@
          }
 </style>
 </head>
-<body>
-    <header class="bg-[#FFFBF0] px-16 py-3">
+<body class="container mx-auto">
+    <header >
         <!-- nav saction -->
-        <nav class="flex flex-col md:flex-row justify-between  ">
-            <div class="font-roboto">
-            <h1 class="text-2xl font-bold"> <span class="text-[#A4BC46]"> Anuradha </span> Fashion </h1> </div>
-            <div>
-               <h3 class="font-roboto">
-                <ul class="flex gap-7 text-base font-bold">
-                    <li>Home</li>
-                    <li>Product</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                </ul>
-            </h3> 
-            </div>
-
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li class="text-[#FF4240] text-base font-bold">Home</li>
+                    <li class="text-[#424247] text-base font-normal">About</li>
+                    <li class="text-[#424247] text-base font-normal">Pages</li>
+                    <li class="text-[#424247] text-base font-normal">Blog</li>
+                    <li class="text-[#424247] text-base font-normal">Contact</li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-3xl font-extrabold">A<span class="text-yellow-300">n</span>u<span class="text-[#FF4240]">S</span><span class="text-green-500">p</span></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 gap-8">
+                    <li class="text-[#FF4240] text-base font-bold">Home</li>
+                    <li class="text-[#424247] text-base font-normal">About</li>
+                    <li class="text-[#424247] text-base font-normal">Pages</li>
+                    <li class="text-[#424247] text-base font-normal">Blog</li>
+                    <li class="text-[#424247] text-base font-normal">Contact</li>
+                  </ul>
+                </div>
+                <div class="navbar-end gap-4">
+                    <h1 class=" hidden lg:flex" ><img src="./Images/search-interface-symbol.png" alt="" ></h1>
+                  <a class="btn w-24 h-6 bg-[#d10e53] text-white text-sm text-center font-bold">Shop Now</a>
+                </div>
+              </div>
         </nav>
         <!-- banner saction -->
-        <div class="font-bebas  py-20 flex flex-col md:flex-row justify-between ">
+        <div class="font-bebas px-6 py-20 flex flex-col md:flex-row justify-between ">
             <div>
-              <h1 class="text-7xl uppercase font-normal gap-2"> <span class="text-[#FABE4C]">Be the Penguins</span> <br>
+              <h1 class="text-5xl uppercase font-normal gap-2"> <span class="text-[#FABE4C]">Be the <br> Penguins</span> <br>
                 of Winter</h1> 
                 <h3 class="font-roboto text-base font-normal">Lorem Ipsum is simply dummy text of the printing <br>
                     and typesetting industry.</h3> 
@@ -61,7 +78,7 @@
         </div>
 
     </header>
-    <main class="max-w-7xl mx-auto">
+    <main class="container mx-auto px-6">
         <!-- woman jacket section-->
         <section>
             <h3 class="text-5xl font-bebas font-normal text-[#363958] py-14">W0Man Jacket</h3>
@@ -191,32 +208,32 @@
 
         </section>
         <!--main 2and section add-->
-        <section class="py-32 grid grid-cols lg:grid-cols-2 gap-20">
-           <div class="grid grid-rows-3 gap-3 ">
-             <div class="flex bg-[#F1F1F1] rounded-2xl  font-roboto w-96 py-3 gap-4 ">
-               <h1 class="w-20 h-20"><img src="./icons/house.png" alt=""></h1> 
-                <div><h4 class="text-2xl text-[#363958] font-bold" > Find the Perfect Fit</h4>
-                <p class="text-base font-normal text-[#3E3E3E]">Everybody is different, which is why we <br>
-                    offer styles for every body.</p></div>
-            </div>
-            <div class=" inline-flex bg-[#F1F1F1] rounded-2xl font-roboto w-96 py-3 gap-4 ">
-                <h1 class="w-20 h-20"><img src="./icons/house.png" alt=""></h1> 
-                 <div><h4 class="text-2xl text-[#363958] font-bold" > Find the Perfect Fit</h4>
-                 <p class="text-base font-normal text-[#3E3E3E]">Everybody is different, which is why we <br>
-                     offer styles for every body.</p></div>
-             </div><div class=" inline-flex bg-[#F1F1F1] rounded-2xl font-roboto w-96  py-3 gap-4 ">
+        <section class="  grid grid-cols lg:grid-cols-2 gap-20 py-20">
+            <div class="grid grid-rows-3 gap-3 ">
+              <div class="flex bg-[#F1F1F1] rounded-2xl  font-roboto w-70 lg:w-96 py-3 gap-4 ">
                 <h1 class="w-20 h-20"><img src="./icons/house.png" alt=""></h1> 
                  <div><h4 class="text-2xl text-[#363958] font-bold" > Find the Perfect Fit</h4>
                  <p class="text-base font-normal text-[#3E3E3E]">Everybody is different, which is why we <br>
                      offer styles for every body.</p></div>
              </div>
-            </div>
-            <div>
-                <h1><img src="./images/shopping.png" alt=""></h1>
-            </div>
-
-        </section>
-
+             <div class=" inline-flex bg-[#F1F1F1] rounded-2xl font-roboto w-70 lg:w-96 py-3 gap-4 ">
+                 <h1 class="w-20 h-20"><img src="./icons/house.png" alt=""></h1> 
+                  <div><h4 class="text-2xl text-[#363958] font-bold" > Find the Perfect Fit</h4>
+                  <p class="text-base font-normal text-[#3E3E3E]">Everybody is different, which is why we <br>
+                      offer styles for every body.</p></div>
+              </div><div class=" inline-flex bg-[#F1F1F1] rounded-2xl font-roboto w-70 lg:w-96  py-3 gap-4 ">
+                 <h1 class="w-20 h-20"><img src="./icons/house.png" alt=""></h1> 
+                  <div><h4 class="text-2xl text-[#363958] font-bold" > Find the Perfect Fit</h4>
+                  <p class="text-base font-normal text-[#3E3E3E]">Everybody is different, which is why we <br>
+                      offer styles for every body.</p></div>
+              </div>
+             </div>
+             <div>
+                 <h1><img src="./images/shopping.png" alt=""></h1>
+             </div>
+ 
+         </section>
+ 
     </main>
         <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
             <nav class="grid grid-flow-col gap-4">
